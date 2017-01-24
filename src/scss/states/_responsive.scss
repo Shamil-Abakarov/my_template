@@ -1,0 +1,19 @@
+@media only screen and (max-width: $extra_small), 
+only screen and (max-device-width: $extra_small){
+	@import './media_query/extra-small.scss';
+}
+
+@media only screen and (max-width: $small), 
+only screen and (max-device-width: $small){
+	@import './media_query/small.scss';
+}
+
+@media only screen and (max-width: $medium), 
+only screen and (max-device-width: $medium){
+	@import './media_query/medium.scss';
+}
+
+@media only screen and (max-width: $large), 
+only screen and (max-device-width: $large){
+	@import './media_query/large.scss';
+}
